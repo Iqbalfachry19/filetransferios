@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1B062882A79422D005CCD93 /* filetransferApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B062872A79422D005CCD93 /* filetransferApp.swift */; };
+		E1B0628A2A79422D005CCD93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B062892A79422D005CCD93 /* ContentView.swift */; };
+		E1B0628C2A79422E005CCD93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B0628B2A79422E005CCD93 /* Assets.xcassets */; };
+		E1B0628F2A79422E005CCD93 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B0628E2A79422E005CCD93 /* Preview Assets.xcassets */; };
+		E1B062992A79422E005CCD93 /* filetransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B062982A79422E005CCD93 /* filetransferTests.swift */; };
+		E1B062A32A79422E005CCD93 /* filetransferUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B062A22A79422E005CCD93 /* filetransferUITests.swift */; };
+		E1B062A52A79422E005CCD93 /* filetransferUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B062A42A79422E005CCD93 /* filetransferUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1B062952A79422E005CCD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B0627C2A79422D005CCD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B062832A79422D005CCD93;
+			remoteInfo = filetransfer;
+		};
+		E1B0629F2A79422E005CCD93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B0627C2A79422D005CCD93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B062832A79422D005CCD93;
+			remoteInfo = filetransfer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E1B062842A79422D005CCD93 /* filetransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = filetransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B062872A79422D005CCD93 /* filetransferApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filetransferApp.swift; sourceTree = "<group>"; };
+		E1B062892A79422D005CCD93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E1B0628B2A79422E005CCD93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B0628E2A79422E005CCD93 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E1B062942A79422E005CCD93 /* filetransferTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = filetransferTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B062982A79422E005CCD93 /* filetransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filetransferTests.swift; sourceTree = "<group>"; };
+		E1B0629E2A79422E005CCD93 /* filetransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = filetransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B062A22A79422E005CCD93 /* filetransferUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filetransferUITests.swift; sourceTree = "<group>"; };
+		E1B062A42A79422E005CCD93 /* filetransferUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = filetransferUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B062812A79422D005CCD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B062912A79422E005CCD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B0629B2A79422E005CCD93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1B0627B2A79422D005CCD93 = {
+			isa = PBXGroup;
+			children = (
+				E1B062862A79422D005CCD93 /* filetransfer */,
+				E1B062972A79422E005CCD93 /* filetransferTests */,
+				E1B062A12A79422E005CCD93 /* filetransferUITests */,
+				E1B062852A79422D005CCD93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B062852A79422D005CCD93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B062842A79422D005CCD93 /* filetransfer.app */,
+				E1B062942A79422E005CCD93 /* filetransferTests.xctest */,
+				E1B0629E2A79422E005CCD93 /* filetransferUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B062862A79422D005CCD93 /* filetransfer */ = {
+			isa = PBXGroup;
+			children = (
+				E1B062872A79422D005CCD93 /* filetransferApp.swift */,
+				E1B062892A79422D005CCD93 /* ContentView.swift */,
+				E1B0628B2A79422E005CCD93 /* Assets.xcassets */,
+				E1B0628D2A79422E005CCD93 /* Preview Content */,
+			);
+			path = filetransfer;
+			sourceTree = "<group>";
+		};
+		E1B0628D2A79422E005CCD93 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E1B0628E2A79422E005CCD93 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E1B062972A79422E005CCD93 /* filetransferTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B062982A79422E005CCD93 /* filetransferTests.swift */,
+			);
+			path = filetransferTests;
+			sourceTree = "<group>";
+		};
+		E1B062A12A79422E005CCD93 /* filetransferUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1B062A22A79422E005CCD93 /* filetransferUITests.swift */,
+				E1B062A42A79422E005CCD93 /* filetransferUITestsLaunchTests.swift */,
+			);
+			path = filetransferUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1B062832A79422D005CCD93 /* filetransfer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B062A82A79422E005CCD93 /* Build configuration list for PBXNativeTarget "filetransfer" */;
+			buildPhases = (
+				E1B062802A79422D005CCD93 /* Sources */,
+				E1B062812A79422D005CCD93 /* Frameworks */,
+				E1B062822A79422D005CCD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = filetransfer;
+			productName = filetransfer;
+			productReference = E1B062842A79422D005CCD93 /* filetransfer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1B062932A79422E005CCD93 /* filetransferTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B062AB2A79422E005CCD93 /* Build configuration list for PBXNativeTarget "filetransferTests" */;
+			buildPhases = (
+				E1B062902A79422E005CCD93 /* Sources */,
+				E1B062912A79422E005CCD93 /* Frameworks */,
+				E1B062922A79422E005CCD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B062962A79422E005CCD93 /* PBXTargetDependency */,
+			);
+			name = filetransferTests;
+			productName = filetransferTests;
+			productReference = E1B062942A79422E005CCD93 /* filetransferTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1B0629D2A79422E005CCD93 /* filetransferUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B062AE2A79422E005CCD93 /* Build configuration list for PBXNativeTarget "filetransferUITests" */;
+			buildPhases = (
+				E1B0629A2A79422E005CCD93 /* Sources */,
+				E1B0629B2A79422E005CCD93 /* Frameworks */,
+				E1B0629C2A79422E005CCD93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B062A02A79422E005CCD93 /* PBXTargetDependency */,
+			);
+			name = filetransferUITests;
+			productName = filetransferUITests;
+			productReference = E1B0629E2A79422E005CCD93 /* filetransferUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B0627C2A79422D005CCD93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E1B062832A79422D005CCD93 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E1B062932A79422E005CCD93 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E1B062832A79422D005CCD93;
+					};
+					E1B0629D2A79422E005CCD93 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E1B062832A79422D005CCD93;
+					};
+				};
+			};
+			buildConfigurationList = E1B0627F2A79422D005CCD93 /* Build configuration list for PBXProject "filetransfer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1B0627B2A79422D005CCD93;
+			productRefGroup = E1B062852A79422D005CCD93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B062832A79422D005CCD93 /* filetransfer */,
+				E1B062932A79422E005CCD93 /* filetransferTests */,
+				E1B0629D2A79422E005CCD93 /* filetransferUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B062822A79422D005CCD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B0628F2A79422E005CCD93 /* Preview Assets.xcassets in Resources */,
+				E1B0628C2A79422E005CCD93 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B062922A79422E005CCD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B0629C2A79422E005CCD93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B062802A79422D005CCD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B0628A2A79422D005CCD93 /* ContentView.swift in Sources */,
+				E1B062882A79422D005CCD93 /* filetransferApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B062902A79422E005CCD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B062992A79422E005CCD93 /* filetransferTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B0629A2A79422E005CCD93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B062A32A79422E005CCD93 /* filetransferUITests.swift in Sources */,
+				E1B062A52A79422E005CCD93 /* filetransferUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1B062962A79422E005CCD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B062832A79422D005CCD93 /* filetransfer */;
+			targetProxy = E1B062952A79422E005CCD93 /* PBXContainerItemProxy */;
+		};
+		E1B062A02A79422E005CCD93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B062832A79422D005CCD93 /* filetransfer */;
+			targetProxy = E1B0629F2A79422E005CCD93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E1B062A62A79422E005CCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1B062A72A79422E005CCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1B062A92A79422E005CCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"filetransfer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7R659T9Y9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iqbal.filetransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1B062AA2A79422E005CCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"filetransfer/Preview Content\"";
+				DEVELOPMENT_TEAM = 7R659T9Y9Q;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iqbal.filetransfer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1B062AC2A79422E005CCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R659T9Y9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iqbal.filetransferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/filetransfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/filetransfer";
+			};
+			name = Debug;
+		};
+		E1B062AD2A79422E005CCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R659T9Y9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iqbal.filetransferTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/filetransfer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/filetransfer";
+			};
+			name = Release;
+		};
+		E1B062AF2A79422E005CCD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R659T9Y9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iqbal.filetransferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = filetransfer;
+			};
+			name = Debug;
+		};
+		E1B062B02A79422E005CCD93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7R659T9Y9Q;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = iqbal.filetransferUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = filetransfer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B0627F2A79422D005CCD93 /* Build configuration list for PBXProject "filetransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B062A62A79422E005CCD93 /* Debug */,
+				E1B062A72A79422E005CCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B062A82A79422E005CCD93 /* Build configuration list for PBXNativeTarget "filetransfer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B062A92A79422E005CCD93 /* Debug */,
+				E1B062AA2A79422E005CCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B062AB2A79422E005CCD93 /* Build configuration list for PBXNativeTarget "filetransferTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B062AC2A79422E005CCD93 /* Debug */,
+				E1B062AD2A79422E005CCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B062AE2A79422E005CCD93 /* Build configuration list for PBXNativeTarget "filetransferUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B062AF2A79422E005CCD93 /* Debug */,
+				E1B062B02A79422E005CCD93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B0627C2A79422D005CCD93 /* Project object */;
+}
